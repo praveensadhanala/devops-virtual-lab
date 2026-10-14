@@ -1,0 +1,19 @@
+=== Docker image ===
+REPOSITORY       TAG       IMAGE ID       CREATED              SIZE
+devops-lab-app   secure    a5715fd593d9   About a minute ago   62.1MB
+=== Container status ===
+CONTAINER ID   IMAGE                   COMMAND                  CREATED              STATUS                        PORTS                                               NAMES
+d3d3984c4d07   devops-lab-app:secure   "/docker-entrypoint.…"   About a minute ago   Up About a minute (healthy)   80/tcp, 0.0.0.0:8081->8080/tcp, :::8081->8080/tcp   devops-secure-test
+=== Health status ===
+healthy
+=== HTTP response ===
+HTTP/1.1 200 OK
+Server: nginx/1.28.3
+Date: Wed, 14 Oct 2026 13:03:46 GMT
+Content-Type: text/html
+Content-Length: 150
+Last-Modified: Sat, 19 Sep 2026 16:44:10 GMT
+Connection: keep-alive
+ETag: "6aaebbda-96"
+Accept-Ranges: bytes
+
